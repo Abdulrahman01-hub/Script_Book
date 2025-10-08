@@ -21,8 +21,8 @@
 //     heading.textContent = 'GeForce 20 Series';
 // }
 // const primaryElements = document.querySelectorAll('.primary');
-// primaryElements.forEach(el => {
-//     el.style.color = '#ebebeb';
+// primaryElements.forEach(i => {
+//     i.style.color = '#ebebeb';
 // });
 
 //?task 4
@@ -33,16 +33,9 @@
 // });
 
 //task 5
-// const listItems = document.querySelectorAll('ul li');
+const listItems = document.querySelectorAll('li');
 
-// listItems.forEach(item => {
-//     item.classList.add('item');
-// });
-
-// if (x >= 13) {
-//     y = 3 * x ** 3 + 4 * x ** 2 + 5 * x + 6;
-// } else {
-//     y = 3 * x ** 3 - 2 * x ** 2 - 3 * x - 4;
-// }
-
-// console.log(y);
+listItems.forEach(li => {
+    li.classList.add('item');
+});
+console.log(listItems);
